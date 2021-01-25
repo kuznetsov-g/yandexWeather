@@ -24,8 +24,6 @@
 		28E3E8BE258FA292004BFB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E3E8BC258FA292004BFB72 /* Main.storyboard */; };
 		28E3E8C0258FA293004BFB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E3E8BF258FA293004BFB72 /* Assets.xcassets */; };
 		28E3E8C3258FA293004BFB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E3E8C1258FA293004BFB72 /* LaunchScreen.storyboard */; };
-		28E3E8CE258FA294004BFB72 /* yandexWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3E8CD258FA294004BFB72 /* yandexWeatherTests.swift */; };
-		28E3E8D9258FA294004BFB72 /* yandexWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3E8D8258FA294004BFB72 /* yandexWeatherUITests.swift */; };
 		28E3E906258FBD4F004BFB72 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3E905258FBD4F004BFB72 /* MainViewController.swift */; };
 		28E3E914258FD0D3004BFB72 /* Get JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3E913258FD0D3004BFB72 /* Get JSON.swift */; };
 		28E3E91D258FD1EF004BFB72 /* JSON Weather Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3E91C258FD1EF004BFB72 /* JSON Weather Structure.swift */; };
@@ -75,11 +73,7 @@
 		28E3E8C2258FA293004BFB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E3E8C4258FA293004BFB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E3E8C9258FA294004BFB72 /* yandexWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yandexWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E3E8CD258FA294004BFB72 /* yandexWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yandexWeatherTests.swift; sourceTree = "<group>"; };
-		28E3E8CF258FA294004BFB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E3E8D4258FA294004BFB72 /* yandexWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yandexWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E3E8D8258FA294004BFB72 /* yandexWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yandexWeatherUITests.swift; sourceTree = "<group>"; };
-		28E3E8DA258FA294004BFB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E3E905258FBD4F004BFB72 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		28E3E913258FD0D3004BFB72 /* Get JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Get JSON.swift"; sourceTree = "<group>"; };
 		28E3E91C258FD1EF004BFB72 /* JSON Weather Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON Weather Structure.swift"; sourceTree = "<group>"; };
@@ -167,24 +161,6 @@
 			path = yandexWeather;
 			sourceTree = "<group>";
 		};
-		28E3E8CC258FA294004BFB72 /* yandexWeatherTests */ = {
-			isa = PBXGroup;
-			children = (
-				28E3E8CD258FA294004BFB72 /* yandexWeatherTests.swift */,
-				28E3E8CF258FA294004BFB72 /* Info.plist */,
-			);
-			path = yandexWeatherTests;
-			sourceTree = "<group>";
-		};
-		28E3E8D7258FA294004BFB72 /* yandexWeatherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				28E3E8D8258FA294004BFB72 /* yandexWeatherUITests.swift */,
-				28E3E8DA258FA294004BFB72 /* Info.plist */,
-			);
-			path = yandexWeatherUITests;
-			sourceTree = "<group>";
-		};
 		28E3E8EC258FA346004BFB72 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,8 +179,6 @@
 			children = (
 				28E3E8B8258FA292004BFB72 /* SceneDelegate.swift */,
 				28E3E8B4258FA292004BFB72 /* Products */,
-				28E3E8D7258FA294004BFB72 /* yandexWeatherUITests */,
-				28E3E8CC258FA294004BFB72 /* yandexWeatherTests */,
 				28E3E8B6258FA292004BFB72 /* AppDelegate.swift */,
 				28E3E8BF258FA293004BFB72 /* Assets.xcassets */,
 				28E3E8C4258FA293004BFB72 /* Info.plist */,
@@ -533,7 +507,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E3E8CE258FA294004BFB72 /* yandexWeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E3E8D9258FA294004BFB72 /* yandexWeatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
