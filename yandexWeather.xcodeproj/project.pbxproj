@@ -147,7 +147,7 @@
 		28E3E8B5258FA292004BFB72 /* yandexWeather */ = {
 			isa = PBXGroup;
 			children = (
-				28E3E8EE258FA36C004BFB72 /* Sys */,
+				28E3E8EE258FA36C004BFB72 /* zSys */,
 				28E3E8F2258FA3C6004BFB72 /* Model */,
 				28E3E8EC258FA346004BFB72 /* Controllers */,
 				28E3E8F3258FA3D1004BFB72 /* View */,
@@ -168,7 +168,7 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		28E3E8EE258FA36C004BFB72 /* Sys */ = {
+		28E3E8EE258FA36C004BFB72 /* zSys */ = {
 			isa = PBXGroup;
 			children = (
 				28E3E8B8258FA292004BFB72 /* SceneDelegate.swift */,
@@ -178,7 +178,7 @@
 				28E3E8C4258FA293004BFB72 /* Info.plist */,
 				28E3E8C1258FA293004BFB72 /* LaunchScreen.storyboard */,
 			);
-			path = Sys;
+			path = zSys;
 			sourceTree = "<group>";
 		};
 		28E3E8F2258FA3C6004BFB72 /* Model */ = {
@@ -675,6 +675,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kuznetsov-G.yandexWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -698,6 +699,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kuznetsov-G.yandexWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
