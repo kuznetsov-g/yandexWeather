@@ -62,6 +62,8 @@
 		2867B6DC25AB70E2000D837E /* AddCityViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewCell.swift; sourceTree = "<group>"; };
 		2867B6DD25AB70E2000D837E /* AddCityViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCityViewCell.xib; sourceTree = "<group>"; };
 		28B64AF925BE0F5E0017C348 /* SaveSelectedCityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSelectedCityID.swift; sourceTree = "<group>"; };
+		28C2499A25BE937300D3DEB7 /* yandexWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yandexWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C2499B25BE937300D3DEB7 /* yandexWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yandexWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E3E8B3258FA292004BFB72 /* yandexWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yandexWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E3E8B6258FA292004BFB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E3E8B8258FA292004BFB72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,8 +71,6 @@
 		28E3E8BF258FA293004BFB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E3E8C2258FA293004BFB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E3E8C4258FA293004BFB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28E3E8C9258FA294004BFB72 /* yandexWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = yandexWeatherTests.xctest; path = "/Users/111/Desktop/Developer/Dev 2.0/dev 2.1/yandexWeather/build/Debug-iphoneos/yandexWeatherTests.xctest"; sourceTree = "<absolute>"; };
-		28E3E8D4258FA294004BFB72 /* yandexWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = yandexWeatherUITests.xctest; path = "/Users/111/Desktop/Developer/Dev 2.0/dev 2.1/yandexWeather/build/Debug-iphoneos/yandexWeatherUITests.xctest"; sourceTree = "<absolute>"; };
 		28E3E905258FBD4F004BFB72 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		28E3E913258FD0D3004BFB72 /* Get JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Get JSON.swift"; sourceTree = "<group>"; };
 		28E3E91C258FD1EF004BFB72 /* JSON Weather Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON Weather Structure.swift"; sourceTree = "<group>"; };
@@ -137,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				28E3E8B3258FA292004BFB72 /* yandexWeather.app */,
+				28C2499A25BE937300D3DEB7 /* yandexWeatherTests.xctest */,
+				28C2499B25BE937300D3DEB7 /* yandexWeatherUITests.xctest */,
 			);
 			name = Products;
 			path = ../..;
@@ -270,7 +272,7 @@
 			);
 			name = yandexWeatherTests;
 			productName = yandexWeatherTests;
-			productReference = 28E3E8C9258FA294004BFB72 /* yandexWeatherTests.xctest */;
+			productReference = 28C2499A25BE937300D3DEB7 /* yandexWeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		28E3E8D3258FA294004BFB72 /* yandexWeatherUITests */ = {
@@ -290,7 +292,7 @@
 			);
 			name = yandexWeatherUITests;
 			productName = yandexWeatherUITests;
-			productReference = 28E3E8D4258FA294004BFB72 /* yandexWeatherUITests.xctest */;
+			productReference = 28C2499B25BE937300D3DEB7 /* yandexWeatherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
