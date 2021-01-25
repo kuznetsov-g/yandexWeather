@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26203F5204A7DA82434B6EF4 /* Pods_yandexWeather_yandexWeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3A83076B0AC56A92CD61C5 /* Pods_yandexWeather_yandexWeatherUITests.framework */; };
 		28071A5525A64E7800B8B65E /* translater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28071A5425A64E7800B8B65E /* translater.swift */; };
 		280ADF2525A8F57B00B99E2A /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ADF2425A8F57B00B99E2A /* gradientView.swift */; };
 		280ADF2B25A9E54600B99E2A /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ADF2925A9E54600B99E2A /* CustomCollectionViewCell.swift */; };
@@ -31,7 +30,6 @@
 		28F6A81325A8DA000031C756 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6A81125A8DA000031C756 /* CustomTableViewCell.swift */; };
 		28F6A81425A8DA000031C756 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F6A81225A8DA000031C756 /* CustomTableViewCell.xib */; };
 		BAB01FE961F34F47495BC3BB /* Pods_yandexWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0099AA9F88321C00F521978 /* Pods_yandexWeather.framework */; };
-		D005FFC3641262EB3DDF0F82 /* Pods_yandexWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B904465938575194227712 /* Pods_yandexWeatherTests.framework */; };
 		D11A0A5425B33BE4001571CD /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A0A5325B33BE4001571CD /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10B904465938575194227712 /* Pods_yandexWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yandexWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28071A5425A64E7800B8B65E /* translater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = translater.swift; sourceTree = "<group>"; };
 		280ADF2425A8F57B00B99E2A /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 		280ADF2925A9E54600B99E2A /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -80,7 +77,6 @@
 		28E3E925258FE59A004BFB72 /* JSON City Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON City Structure.swift"; sourceTree = "<group>"; };
 		28F6A81125A8DA000031C756 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		28F6A81225A8DA000031C756 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
-		3C3A83076B0AC56A92CD61C5 /* Pods_yandexWeather_yandexWeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yandexWeather_yandexWeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B9E24DF389603BB497EEF /* Pods-yandexWeather-yandexWeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yandexWeather-yandexWeatherUITests.release.xcconfig"; path = "Target Support Files/Pods-yandexWeather-yandexWeatherUITests/Pods-yandexWeather-yandexWeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61FFED519CDED633633BA11B /* Pods-yandexWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yandexWeather.debug.xcconfig"; path = "Target Support Files/Pods-yandexWeather/Pods-yandexWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		64CBC0803BDDE42622AB167D /* Pods-yandexWeather-yandexWeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yandexWeather-yandexWeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-yandexWeather-yandexWeatherUITests/Pods-yandexWeather-yandexWeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D005FFC3641262EB3DDF0F82 /* Pods_yandexWeatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26203F5204A7DA82434B6EF4 /* Pods_yandexWeather_yandexWeatherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				B0099AA9F88321C00F521978 /* Pods_yandexWeather.framework */,
-				3C3A83076B0AC56A92CD61C5 /* Pods_yandexWeather_yandexWeatherUITests.framework */,
-				10B904465938575194227712 /* Pods_yandexWeatherTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
